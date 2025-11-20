@@ -65,7 +65,7 @@ This is the central command center.
 cd server  
 python run.py
 
-*You should see: PEERA SECURE OTA SERVER (MODULAR) Running at https://0.0.0.0:8443*
+*You should see:  SECURE OTA SERVER (MODULAR) Running at https://0.0.0.0:8443*
 
 ### **Terminal 2: The Dashboard (TUI)**
 
