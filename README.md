@@ -25,10 +25,10 @@ SECURE OTA NEW/
 │   ├── firmware/            \# Firmware Binary Storage  
 │   ├── TUI/                 \# Dashboard Code  
 │   └── run.py               \# Server Launcher  
-├── client1/                 \# IoT Device Simulator 1 (Normal)  
+├── client1/                 \# IoT Device Simulator 1 
 │   ├── client.py            \# Device Agent Code  
 │   └── config.json          \# Identity & Port Config  
-├── client2/                 \# IoT Device Simulator 2 (High Load)  
+├── client2/                 \# IoT Device Simulator 2  
 │   ├── client.py            \# Device Agent Code  
 │   └── config.json          \# Identity & Port Config  
 ├── admin\_tool.py            \# CLI Tool for Admins to push updates  
