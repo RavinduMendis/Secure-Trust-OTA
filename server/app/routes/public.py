@@ -9,7 +9,7 @@ router = APIRouter()
 async def get_firmware():
     fw_path = FIRMWARE_DIR / "firmware.bin"
     if not fw_path.exists():
-        fw_path.write_bytes(b"PEERA-MODULAR-FIRMWARE-v2.1.5")
+        fw_path.write_bytes(b"IOTFW-MODULAR-FIRMWARE-v2.1.5")
     return FileResponse(fw_path)
 
 @router.get("/api/devices")
