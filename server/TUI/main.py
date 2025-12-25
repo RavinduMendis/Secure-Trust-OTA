@@ -231,7 +231,7 @@ def update_layout(layout, devices, stats, view_mode):
     header_text.add_column(justify="right")
     # Header: Dark Grey Background (235) with White text
     header_text.add_row(
-        f"[bold white]PEERA SECURE DASHBOARD v3.1[/] | Connected: [color(39)]{len(devices)}[/] | Anomalies: [color(196)]{anomalies}[/]",
+        f"[bold white]IOTFW SECURE DASHBOARD v3.1[/] | Connected: [color(39)]{len(devices)}[/] | Anomalies: [color(196)]{anomalies}[/]",
         f"[dim]Views: 1-4 | Device Select: 'd' | Quit: 'q' | Current: {view_mode}[/]"
     )
     layout["header"].update(Panel(header_text, style="white on color(235)"))

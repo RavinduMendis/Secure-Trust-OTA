@@ -3,7 +3,7 @@ from app.utils import setup_directories, load_json, CONFIG_DIR
 from app.routes import telemetry, admin, public
 import json
 
-app = FastAPI(title="PEERA Secure OTA Server (Modular)")
+app = FastAPI(title="IOTFW Secure OTA Server (Modular)")
 
 # Include Routers
 app.include_router(telemetry.router)
